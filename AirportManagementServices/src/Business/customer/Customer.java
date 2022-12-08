@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  *
- * @author harold
+ * @author viral
  */
 public class Customer {
     private String username;
