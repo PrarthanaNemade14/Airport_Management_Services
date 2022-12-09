@@ -4,6 +4,8 @@
  */
 package Frontend;
 
+import Backend.EcoSystem;
+import Backend.util.Utils;
 import business.DB40Util.DB4OUtil;
 import business.EcoSystem;
 import business.util.Utils;

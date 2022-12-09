@@ -8,7 +8,7 @@ package Frontend.Admin;
 import Frontend.Airline.*;
 import Backend.EcoSystem;
 import Backend.airline.Airline;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.employee.AirlineEmployee;
 import Backend.util.Constant;
 import Backend.util.Role;
@@ -63,7 +63,7 @@ public class AddAirline extends javax.swing.JPanel {
         uname = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        name = new javax.swing.JTextField();
+        namee = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         txtAddress = new javax.swing.JTextArea();
@@ -76,10 +76,12 @@ public class AddAirline extends javax.swing.JPanel {
         jLabel13 = new javax.swing.JLabel();
         btnSave = new javax.swing.JButton();
         txtPassword = new javax.swing.JPasswordField();
+        table = new javax.swing.JButton();
 
         setPreferredSize(new java.awt.Dimension(800, 800));
 
-        jLabel2.setFont(new java.awt.Font("Tw Cen MT", 3, 48)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial Black", 3, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 0, 153));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Add Airline");
 
@@ -100,7 +102,7 @@ public class AddAirline extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setText("Name:");
 
-        name.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        namee.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel6.setText("Address:");
@@ -133,8 +135,8 @@ public class AddAirline extends javax.swing.JPanel {
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel13.setText("Password:");
 
-        btnSave.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnSave.setForeground(new java.awt.Color(102, 204, 0));
+        btnSave.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
+        btnSave.setForeground(new java.awt.Color(0, 51, 153));
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,6 +147,15 @@ public class AddAirline extends javax.swing.JPanel {
         txtPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPasswordActionPerformed(evt);
+            }
+        });
+
+        table.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
+        table.setForeground(new java.awt.Color(0, 51, 153));
+        table.setText("View Details");
+        table.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tableActionPerformed(evt);
             }
         });
 
@@ -191,10 +202,12 @@ public class AddAirline extends javax.swing.JPanel {
                                 .addGap(83, 83, 83)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(uname, javax.swing.GroupLayout.DEFAULT_SIZE, 308, Short.MAX_VALUE)
-                            .addComponent(name)))
+                            .addComponent(namee)))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addGap(287, 287, 287)
-                        .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(btnSave, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(table, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addGap(0, 50, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -214,7 +227,7 @@ public class AddAirline extends javax.swing.JPanel {
                     .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(name, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(namee, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(38, 38, 38)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -238,10 +251,12 @@ public class AddAirline extends javax.swing.JPanel {
                     .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(46, 46, 46)
                 .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(160, Short.MAX_VALUE))
+                .addGap(28, 28, 28)
+                .addComponent(table, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(71, Short.MAX_VALUE))
         );
 
-        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {name, uname});
+        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {namee, uname});
 
     }// </editor-fold>//GEN-END:initComponents
 
@@ -251,12 +266,12 @@ public class AddAirline extends javax.swing.JPanel {
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
 
-        String name = txtName.getText();
+        String name = namee.getText();
         String address = txtAddress.getText();
         String postalCode = txtPostalCode.getText();
         String city = txtCity.getText();
         String state = txtState.getText();
-        String username = txtUsername.getText();
+        String username = uname.getText();
         String password = txtPassword.getText();
         
         if(username == null || "".equals(username.trim())) {
@@ -306,8 +321,8 @@ public class AddAirline extends javax.swing.JPanel {
         ecoSystem.getRole().addNewUserRole(username, Role.airlineRole);
         showMessageDialog(this, "New airline added successfully");
         
-        txtName.setText("");
-        txtUsername.setText("");
+        namee.setText("");
+        uname.setText("");
         txtAddress.setText("");
         txtCity.setText("");
         txtState.setText("");
@@ -325,6 +340,10 @@ public class AddAirline extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtPasswordActionPerformed
 
+    private void tableActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tableActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tableActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack2;
@@ -338,7 +357,8 @@ public class AddAirline extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextField name;
+    private javax.swing.JTextField namee;
+    private javax.swing.JButton table;
     private javax.swing.JTextArea txtAddress;
     private javax.swing.JTextField txtCity;
     private javax.swing.JPasswordField txtPassword;

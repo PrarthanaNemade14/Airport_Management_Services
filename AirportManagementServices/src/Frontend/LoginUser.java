@@ -5,23 +5,23 @@
  */
 package Frontend;
 
-import business.EcoSystem;
-import business.airline.Airline;
-import business.airport.Airport;
-import business.customer.Customer;
-import business.restaurant.Restaurant;
-import business.userAccount.UserAccount;
-import business.util.Role;
+import Backend.EcoSystem;
+import Backend.airline.Airline;
+import Backend.airport.Airport;
+import Backend.Customer.Customer;
+import Backend.restaurant.Restaurant;
+import Backend.userAccount.UserAccount;
+import Backend.util.Role;
 import java.awt.Graphics;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import static javax.swing.JOptionPane.ERROR_MESSAGE;
 import static javax.swing.JOptionPane.showMessageDialog;
-import ui.Airline.AirlinePanel;
-import ui.Customer.CustomerPanel;
-import ui.admin.AdminPanel;
-import ui.airport.AirportPanel;
-import ui.restaurant.RestaurantPanel;
+import Frontend.Airline.AirlinePanel;
+import Frontend.Customer.CustomerPanel;
+import Frontend.Admin.AdminPanel;
+import Frontend.airport.AirportPanel;
+import Frontend.restaurant.RestaurantPanel;
 
 /**
  *

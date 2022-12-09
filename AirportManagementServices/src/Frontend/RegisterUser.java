@@ -5,10 +5,10 @@
  */
 package Frontend;
 
-import business.EcoSystem;
-import business.customer.Customer;
-import business.userAccount.UserAccount;
-import business.util.Role;
+import Backend.EcoSystem;
+import Backend.Customer.Customer;
+import Backend.userAccount.UserAccount;
+import Backend.util.Role;
 import java.awt.Graphics;
 import java.util.regex.Pattern;
 import javax.swing.ImageIcon;
