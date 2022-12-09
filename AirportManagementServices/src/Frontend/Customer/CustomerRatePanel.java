@@ -5,10 +5,10 @@
  */
 package Frontend.Customer;
 
-import business.EcoSystem;
-import business.customer.Customer;
-import business.restaurantOrder.RestaurantOrder;
-import business.restaurantOrder.RestauratOrderStatus;
+import Backend.EcoSystem;
+import Backend.customer.Customer;
+import Backend.restaurantOrder.RestaurantOrder;
+import Backend.restaurantOrder.RestauratOrderStatus;
 import java.awt.Graphics;
 import java.util.List;
 import javax.swing.ImageIcon;
