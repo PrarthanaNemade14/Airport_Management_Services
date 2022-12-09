@@ -69,6 +69,8 @@ public class AddTerminal extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
 
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
         jLabel11.setFont(new java.awt.Font("Tahoma", 3, 48)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(114, 43, 173));
         jLabel11.setText("Add Terminal");
