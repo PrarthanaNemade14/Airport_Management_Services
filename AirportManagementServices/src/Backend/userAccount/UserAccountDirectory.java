@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package business.userAccount;
+package Backend.userAccount;
 
-import business.util.Role;
+import Backend.util.Role;
 import java.util.ArrayList;
 
 /**
