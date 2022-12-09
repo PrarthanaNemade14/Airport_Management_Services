@@ -5,13 +5,13 @@
  */
 package Frontend.Customer;
 
-import business.EcoSystem;
-import business.airline.Airline;
-import business.airline.Airplane;
-import business.customer.Customer;
-import business.order.Order;
-import business.util.Constant;
-import business.util.Utils;
+import Backend.EcoSystem;
+import Backend.airline.Airline;
+import Backend.airline.Airplane;
+import Backend.customer.Customer;
+import Backend.order.Order;
+import Backend.util.Constant;
+import Backend.util.Utils;
 import java.awt.Graphics;
 import java.io.IOException;
 import java.text.DateFormat;

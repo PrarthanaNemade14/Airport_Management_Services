@@ -4,9 +4,9 @@
  */
 package Frontend;
 
-import business.DB40Util.DB4OUtil;
-import business.EcoSystem;
-import business.util.Utils;
+import Backend.DB40Util.DB4OUtil;
+import Backend.EcoSystem;
+import Backend.util.Utils;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
