@@ -5,12 +5,12 @@
  */
 package Frontend.Airline;
 
-import business.EcoSystem;
-import business.airline.Airline;
-import business.airline.Airplane;
-import business.employee.AirlineEmployee;
-import business.util.Constant;
-import business.util.Utils;
+import Backend.EcoSystem;
+import Backend.airline.Airline;
+import Backend.airline.Airplane;
+import Backend.employee.AirlineEmployee;
+import Backend.util.Constant;
+import Backend.util.Utils;
 import java.awt.Graphics;
 import java.util.List;
 import javax.swing.ImageIcon;

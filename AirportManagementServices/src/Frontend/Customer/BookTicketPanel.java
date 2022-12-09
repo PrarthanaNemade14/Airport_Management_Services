@@ -5,13 +5,13 @@
  */
 package Frontend.Customer;
 
-import business.EcoSystem;
-import business.airline.Airplane;
-import business.airport.Airport;
-import business.customer.Customer;
-import business.employee.AirlineEmployee;
-import business.util.Constant;
-import business.util.Utils;
+import Backend.Customer.Customer;
+import Backend.EcoSystem;
+import Backend.airline.Airplane;
+import Backend.airport.Airport;
+import Backend.employee.AirlineEmployee;
+import Backend.util.Constant;
+import Backend.util.Utils;
 import java.awt.Graphics;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -69,7 +69,6 @@ public class BookTicketPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jLabel5 = new javax.swing.JLabel();
-        txtDate = new com.toedter.calendar.JDateChooser();
         jButton1 = new javax.swing.JButton();
         btnBack2 = new javax.swing.JButton();
         bBook = new javax.swing.JButton();
@@ -80,6 +79,7 @@ public class BookTicketPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         comboBoxDeparture = new javax.swing.JComboBox<>();
         comboBoxArrival = new javax.swing.JComboBox<>();
+        txtDate = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(153, 153, 255));
         setForeground(new java.awt.Color(153, 153, 255));
@@ -88,7 +88,6 @@ public class BookTicketPanel extends javax.swing.JPanel {
         jLabel5.setForeground(new java.awt.Color(0, 102, 204));
         jLabel5.setText("BOOK YOUR FLIGHT");
 
-        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 102, 204));
         jButton1.setText("Search");
@@ -98,7 +97,6 @@ public class BookTicketPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack2.setBackground(new java.awt.Color(255, 255, 255));
         btnBack2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnBack2.setForeground(new java.awt.Color(0, 102, 255));
         btnBack2.setText("<< Back");
@@ -108,7 +106,6 @@ public class BookTicketPanel extends javax.swing.JPanel {
             }
         });
 
-        bBook.setBackground(new java.awt.Color(255, 255, 255));
         bBook.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         bBook.setForeground(new java.awt.Color(0, 102, 204));
         bBook.setText("Book");
@@ -185,11 +182,13 @@ public class BookTicketPanel extends javax.swing.JPanel {
                                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(156, 156, 156)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(77, 77, 77)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(113, 113, 113)
+                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(jLabel3))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(344, 344, 344)
                         .addComponent(bBook, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -209,11 +208,10 @@ public class BookTicketPanel extends javax.swing.JPanel {
                             .addComponent(jLabel2)
                             .addComponent(jLabel3))
                         .addGap(19, 19, 19)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(comboBoxDeparture, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(comboBoxArrival, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(comboBoxDeparture, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(comboBoxArrival, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)))
