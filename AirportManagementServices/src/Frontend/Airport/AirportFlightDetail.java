@@ -74,20 +74,19 @@ public class AirportFlightDetail extends javax.swing.JPanel {
         tblResult = new javax.swing.JTable();
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 3, 48)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(114, 43, 173));
         jLabel5.setText("Flight Details");
 
-        btnBack2.setBackground(new java.awt.Color(255, 255, 255));
         btnBack2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnBack2.setForeground(new java.awt.Color(0, 102, 204));
         btnBack2.setText("<< Back");
-        btnBack2.setActionCommand("<< Back");
         btnBack2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBack2ActionPerformed(evt);
             }
         });
 
-        tblResult.setBackground(new java.awt.Color(255, 255, 153));
+        tblResult.setBackground(new java.awt.Color(229, 196, 245));
         tblResult.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         tblResult.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

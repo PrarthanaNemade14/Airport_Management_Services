@@ -60,7 +60,8 @@ public class AirportPanel extends javax.swing.JPanel {
         btn_orderFood = new javax.swing.JButton();
 
         jLabel1.setBackground(new java.awt.Color(204, 102, 0));
-        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(111, 48, 181));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Airport Dashboard");
         jLabel1.setMaximumSize(new java.awt.Dimension(102, 100));
@@ -73,9 +74,8 @@ public class AirportPanel extends javax.swing.JPanel {
             }
         });
 
-        btn_bookTickets.setBackground(new java.awt.Color(255, 255, 255));
         btn_bookTickets.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btn_bookTickets.setForeground(new java.awt.Color(0, 51, 204));
+        btn_bookTickets.setForeground(new java.awt.Color(0, 51, 153));
         btn_bookTickets.setText("Add Terminal");
         btn_bookTickets.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,9 +83,8 @@ public class AirportPanel extends javax.swing.JPanel {
             }
         });
 
-        btn_bookingHistory.setBackground(new java.awt.Color(255, 255, 255));
         btn_bookingHistory.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btn_bookingHistory.setForeground(new java.awt.Color(0, 0, 204));
+        btn_bookingHistory.setForeground(new java.awt.Color(0, 51, 153));
         btn_bookingHistory.setText("Edit Terminal");
         btn_bookingHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,9 +92,8 @@ public class AirportPanel extends javax.swing.JPanel {
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(0, 0, 204));
+        jButton4.setForeground(new java.awt.Color(0, 51, 153));
         jButton4.setText("View Flight details");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,9 +101,8 @@ public class AirportPanel extends javax.swing.JPanel {
             }
         });
 
-        btn_orderFood.setBackground(new java.awt.Color(255, 255, 255));
         btn_orderFood.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btn_orderFood.setForeground(new java.awt.Color(0, 0, 204));
+        btn_orderFood.setForeground(new java.awt.Color(0, 51, 153));
         btn_orderFood.setText("Process Request");
         btn_orderFood.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

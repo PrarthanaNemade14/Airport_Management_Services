@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Frontend.Airport;
+package Frontend.airport;
 
 import Frontend.Airline.*;
 import Backend.EcoSystem;
@@ -78,10 +78,10 @@ public class EditTerminal extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
 
         jLabel11.setBackground(new java.awt.Color(0, 102, 102));
-        jLabel11.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Tahoma", 3, 48)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(111, 48, 181));
         jLabel11.setText("Edit Terminal");
 
-        btnBack2.setBackground(new java.awt.Color(255, 255, 255));
         btnBack2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnBack2.setForeground(new java.awt.Color(0, 102, 204));
         btnBack2.setText("<< Back");
@@ -91,9 +91,8 @@ public class EditTerminal extends javax.swing.JPanel {
             }
         });
 
-        btnAddFlight.setBackground(new java.awt.Color(255, 255, 255));
         btnAddFlight.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnAddFlight.setForeground(new java.awt.Color(153, 204, 0));
+        btnAddFlight.setForeground(new java.awt.Color(0, 51, 153));
         btnAddFlight.setText("Save Changes");
         btnAddFlight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,7 +116,7 @@ public class EditTerminal extends javax.swing.JPanel {
         jLabel1.setText("Edit Terminal Info");
 
         jButton2.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 102, 255));
+        jButton2.setForeground(new java.awt.Color(0, 51, 153));
         jButton2.setText("Edit");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,9 +124,8 @@ public class EditTerminal extends javax.swing.JPanel {
             }
         });
 
-        btnDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnDelete.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(255, 51, 51));
+        btnDelete.setForeground(new java.awt.Color(0, 51, 153));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,6 +133,7 @@ public class EditTerminal extends javax.swing.JPanel {
             }
         });
 
+        tblPilot.setBackground(new java.awt.Color(229, 196, 245));
         tblPilot.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         tblPilot.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -147,7 +146,6 @@ public class EditTerminal extends javax.swing.JPanel {
                 "Terminal", "No of Gates"
             }
         ));
-        tblPilot.setSelectionMode(javax.swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         jScrollPane1.setViewportView(tblPilot);
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -222,7 +220,7 @@ public class EditTerminal extends javax.swing.JPanel {
                     .addComponent(txtNoOfgates, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10))
                 .addGap(39, 39, 39)
-                .addComponent(btnAddFlight, javax.swing.GroupLayout.DEFAULT_SIZE, 37, Short.MAX_VALUE)
+                .addComponent(btnAddFlight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(1036, 1036, 1036))
         );
     }// </editor-fold>//GEN-END:initComponents

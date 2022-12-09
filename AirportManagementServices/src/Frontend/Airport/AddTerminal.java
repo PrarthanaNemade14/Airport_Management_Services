@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Frontend.Airport;
+package Frontend.airport;
 
 import Frontend.Airline.*;
 import Backend.EcoSystem;
@@ -70,13 +70,12 @@ public class AddTerminal extends javax.swing.JPanel {
         jLabel10 = new javax.swing.JLabel();
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 3, 48)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(114, 43, 173));
         jLabel11.setText("Add Terminal");
 
-        btnBack2.setBackground(new java.awt.Color(255, 255, 255));
         btnBack2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btnBack2.setForeground(new java.awt.Color(0, 102, 204));
         btnBack2.setText("<< Back");
-        btnBack2.setActionCommand("<< Back");
         btnBack2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBack2ActionPerformed(evt);
@@ -87,9 +86,8 @@ public class AddTerminal extends javax.swing.JPanel {
 
         txtNoOfgates.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
-        btnAddFlight.setBackground(new java.awt.Color(255, 255, 255));
         btnAddFlight.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnAddFlight.setForeground(new java.awt.Color(153, 204, 0));
+        btnAddFlight.setForeground(new java.awt.Color(0, 51, 153));
         btnAddFlight.setText("Add");
         btnAddFlight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
