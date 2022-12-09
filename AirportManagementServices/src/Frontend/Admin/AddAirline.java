@@ -6,13 +6,13 @@
 package Frontend.Admin;
 
 import Frontend.Airline.*;
-import Business.EcoSystem;
-import business.airline.Airline;
-import business.customer.Customer;
-import business.employee.AirlineEmployee;
-import business.util.Constant;
-import business.util.Role;
-import business.util.Utils;
+import Backend.EcoSystem;
+import Backend.airline.Airline;
+import Backend.customer.Customer;
+import Backend.employee.AirlineEmployee;
+import Backend.util.Constant;
+import Backend.util.Role;
+import Backend.util.Utils;
 import java.awt.Graphics;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -25,7 +25,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author ashis
+ * @author nemad
  */
 public class AddAirline extends javax.swing.JPanel {
 
