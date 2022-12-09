@@ -1,16 +1,16 @@
-package business;
+package Backend;
 
-import business.airline.Airline;
-import business.airport.Airport;
-import business.customer.Customer;
-import business.employee.AirlineEmployee;
-import business.userAccount.UserAccount;
-import business.util.Constant;
-import business.util.Role;
+import Backend.airline.Airline;
+import Backend.airport.Airport;
+import Backend.customer.Customer;
+import Backend.employee.AirlineEmployee;
+import Backend.userAccount.UserAccount;
+import Backend.util.Constant;
+import Backend.util.Role;
 
 /**
  *
- * @author rrheg
+ * @author viral
  */
 public class ConfigureASystem {
     
@@ -30,8 +30,8 @@ public class ConfigureASystem {
         
 //        Customer customer = system.getCustomerDirectory().addCustomer();
 //        customer.setUsername("as");
-//        customer.setName("Ashish Pandey");
-//        customer.setEmail("ashpandey32@gmail.com");
+//        customer.setName("Viral Jangale");
+//        customer.setEmail("viraljangale32@gmail.com");
 //        
 //        UserAccount ua = system.getUserAccountDirectory().createUserAccount("as", "as", Role.customerRole);
 //        
