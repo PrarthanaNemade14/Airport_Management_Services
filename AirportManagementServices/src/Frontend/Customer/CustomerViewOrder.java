@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ui.Customer;
+package Frontend.Customer;
 
-import business.EcoSystem;
-import business.customer.Customer;
-import business.restaurant.Dish;
-import business.restaurantOrder.RestaurantOrder;
-import business.restaurantOrder.RestaurantOrderItem;
+import Backend.EcoSystem;
+import Backend.customer.Customer;
+import Backend.restaurant.Dish;
+import Backend.restaurantOrder.RestaurantOrder;
+import Backend.restaurantOrder.RestaurantOrderItem;
 import java.awt.Graphics;
 import java.util.List;
 import javax.swing.ImageIcon;

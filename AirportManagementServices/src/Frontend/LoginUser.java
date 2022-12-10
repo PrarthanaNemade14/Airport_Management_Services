@@ -8,7 +8,11 @@ package Frontend;
 import Backend.EcoSystem;
 import Backend.airline.Airline;
 import Backend.airport.Airport;
+<<<<<<< HEAD
 import Backend.Customer.Customer;
+=======
+import Backend.customer.Customer;
+>>>>>>> 091947e5109e2eb6c1bd42bbc95c4e4261eb4319
 import Backend.restaurant.Restaurant;
 import Backend.userAccount.UserAccount;
 import Backend.util.Role;
@@ -19,7 +23,11 @@ import static javax.swing.JOptionPane.ERROR_MESSAGE;
 import static javax.swing.JOptionPane.showMessageDialog;
 import Frontend.Airline.AirlinePanel;
 import Frontend.Customer.CustomerPanel;
+<<<<<<< HEAD
 import Frontend.Admin.AdminPanel;
+=======
+import Frontend.admin.AdminPanel;
+>>>>>>> 091947e5109e2eb6c1bd42bbc95c4e4261eb4319
 import Frontend.airport.AirportPanel;
 import Frontend.restaurant.RestaurantPanel;
 
