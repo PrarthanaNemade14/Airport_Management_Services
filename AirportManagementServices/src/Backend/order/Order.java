@@ -7,7 +7,7 @@ package Backend.order;
 
 import Backend.airline.Airplane;
 import Backend.airport.Airport;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.restaurant.Restaurant;
 import java.util.ArrayList;
 import java.util.Date;
