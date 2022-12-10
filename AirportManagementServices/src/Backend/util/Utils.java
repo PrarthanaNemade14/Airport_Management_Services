@@ -7,10 +7,10 @@ package Backend.util;
 
 import Backend.DB40Util.DB4OUtil;
 import Backend.EcoSystem;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import ui.HomePage;
+import Frontend.HomePage;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;

@@ -5,7 +5,7 @@
  */
 package Backend.restaurantOrder;
 
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.restaurant.Restaurant;
 import java.util.ArrayList;
 import java.util.List;
