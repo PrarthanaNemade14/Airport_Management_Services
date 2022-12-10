@@ -5,14 +5,14 @@
  */
 package Frontend.Airline;
 
-import business.DB40Util.DB4OUtil;
-import business.EcoSystem;
-import business.airline.Airline;
-import business.util.Utils;
+import Backend.DB40Util.DB4OUtil;
+import Backend.EcoSystem;
+import Backend.airline.Airline;
+import Backend.util.Utils;
 import java.awt.Graphics;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import ui.HomePage;
+import Frontend.HomePage;
 
 /**
  *

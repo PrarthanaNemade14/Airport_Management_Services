@@ -4,9 +4,17 @@
  */
 package Frontend;
 
+<<<<<<< HEAD
+import Backend.EcoSystem;
+import Backend.util.Utils;
+import business.DB40Util.DB4OUtil;
+import business.EcoSystem;
+import business.util.Utils;
+=======
 import Backend.DB40Util.DB4OUtil;
 import Backend.EcoSystem;
 import Backend.util.Utils;
+>>>>>>> 091947e5109e2eb6c1bd42bbc95c4e4261eb4319
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
