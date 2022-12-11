@@ -5,17 +5,10 @@
  */
 package Frontend.Customer;
 
-<<<<<<< HEAD
 import Backend.Customer.Customer;
 import Backend.EcoSystem;
 import Backend.airline.Airplane;
 import Backend.airport.Airport;
-=======
-import Backend.EcoSystem;
-import Backend.airline.Airplane;
-import Backend.airport.Airport;
-import Backend.customer.Customer;
->>>>>>> 091947e5109e2eb6c1bd42bbc95c4e4261eb4319
 import Backend.employee.AirlineEmployee;
 import Backend.util.Constant;
 import Backend.util.Utils;

@@ -24,6 +24,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import java.io.FileOutputStream;
 import com.itextpdf.text.BaseColor;
+import java.awt.Font;
 import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -45,6 +46,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMultipart;
+import javax.swing.text.Document;
 
 /**
  *

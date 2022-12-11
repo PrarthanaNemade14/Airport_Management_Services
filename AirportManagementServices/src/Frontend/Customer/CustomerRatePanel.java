@@ -6,7 +6,7 @@
 package Frontend.Customer;
 
 import Backend.EcoSystem;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.restaurantOrder.RestaurantOrder;
 import Backend.restaurantOrder.RestauratOrderStatus;
 import java.awt.Graphics;

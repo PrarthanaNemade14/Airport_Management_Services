@@ -5,10 +5,10 @@
  */
 package Frontend.Customer;
 
-import business.EcoSystem;
-import business.customer.Customer;
-import business.order.Order;
-import business.util.Utils;
+import Backend.EcoSystem;
+import Backend.Customer.Customer;
+import Backend.order.Order;
+import Backend.util.Utils;
 import java.awt.Graphics;
 import java.io.IOException;
 import java.text.DateFormat;
