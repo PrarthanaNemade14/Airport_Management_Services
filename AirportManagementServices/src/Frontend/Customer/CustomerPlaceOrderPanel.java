@@ -7,7 +7,7 @@ package Frontend.Customer;
 
 import Backend.EcoSystem;
 import Backend.airport.Airport;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.restaurant.Dish;
 import Backend.restaurant.Restaurant;
 import Backend.restaurantOrder.RestaurantOrder;

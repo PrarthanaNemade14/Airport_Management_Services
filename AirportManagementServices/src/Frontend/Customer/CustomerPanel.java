@@ -7,7 +7,7 @@ package Frontend.Customer;
 
 import Backend.DB40Util.DB4OUtil;
 import Backend.EcoSystem;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.util.Utils;
 import java.awt.Graphics;
 import javax.swing.ImageIcon;

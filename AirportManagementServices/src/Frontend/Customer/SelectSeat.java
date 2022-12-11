@@ -8,7 +8,7 @@ package Frontend.Customer;
 import Backend.EcoSystem;
 import Backend.airline.Airline;
 import Backend.airline.Airplane;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.order.Order;
 import Backend.util.Constant;
 import Backend.util.Utils;
