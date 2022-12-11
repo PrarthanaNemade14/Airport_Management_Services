@@ -1,2 +1,0 @@
-Frontend.airport.AirportFlightDetail$1
-Frontend.airport.AirportFlightDetail
