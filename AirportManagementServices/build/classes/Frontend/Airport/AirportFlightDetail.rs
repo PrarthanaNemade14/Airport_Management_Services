@@ -1,4 +1,2 @@
 Frontend.airport.AirportFlightDetail$1
-ui.airport.AirportFlightDetail$1
 Frontend.airport.AirportFlightDetail
-ui.airport.AirportFlightDetail

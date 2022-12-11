@@ -9,7 +9,7 @@ import Frontend.Airline.*;
 import Backend.EcoSystem;
 import Backend.airline.Airline;
 import Backend.airport.Airport;
-import Backend.customer.Customer;
+import Backend.Customer.Customer;
 import Backend.employee.AirlineEmployee;
 import Backend.util.Constant;
 import Backend.util.Role;

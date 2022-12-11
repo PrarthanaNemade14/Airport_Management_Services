@@ -8,7 +8,7 @@ package Backend;
 import Backend.airline.AirlineDirectory;
 import Backend.airline.AirplaneDirectory;
 import Backend.airport.AirportDirectory;
-import Backend.customer.CustomerDirectory;
+import Backend.Customer.CustomerDirectory;
 import Backend.employee.AirlineEmployeeDirectory;
 import Backend.order.OrderDirectory;
 import Backend.restaurant.RestaurantDirectory;
