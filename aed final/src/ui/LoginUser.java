@@ -72,7 +72,7 @@ public class LoginUser extends javax.swing.JPanel {
 
         jMenu1.setText("jMenu1");
 
-        setBackground(new java.awt.Color(204, 255, 204));
+        setBackground(new java.awt.Color(255, 153, 153));
         setForeground(new java.awt.Color(204, 204, 255));
         setPreferredSize(new java.awt.Dimension(800, 800));
         setLayout(null);
@@ -85,9 +85,9 @@ public class LoginUser extends javax.swing.JPanel {
         add(txtUsername);
         txtUsername.setBounds(970, 350, 220, 50);
 
-        jButton1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1.setBackground(new java.awt.Color(255, 102, 102));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setForeground(new java.awt.Color(255, 51, 51));
         jButton1.setText("Login");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +98,7 @@ public class LoginUser extends javax.swing.JPanel {
         jButton1.setBounds(940, 520, 200, 40);
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 102, 102));
+        jLabel3.setForeground(new java.awt.Color(51, 51, 255));
         jLabel3.setText("Not registered yet?");
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -109,15 +109,14 @@ public class LoginUser extends javax.swing.JPanel {
         jLabel3.setBounds(980, 580, 150, 20);
 
         jLabel4.setFont(new java.awt.Font("Tw Cen MT Condensed", 3, 48)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 102, 102));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Airline Reservation System");
         add(jLabel4);
-        jLabel4.setBounds(600, 30, 680, 130);
+        jLabel4.setBounds(740, 30, 680, 130);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/login (1).png"))); // NOI18N
         add(jLabel5);
-        jLabel5.setBounds(910, 160, 140, 130);
+        jLabel5.setBounds(970, 150, 140, 130);
 
         passwordIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/padlock (1).png"))); // NOI18N
         passwordIcon.setText("jLabel7");
